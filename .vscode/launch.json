@@ -9,13 +9,13 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "c:/Users/Paloma/Google Drive/Dev/Target Sistemas/Teste",
+      "cwd": "${workspaceFolder}",
       "environment": [],
-      "program": "c:/Users/Paloma/Google Drive/Dev/Target Sistemas/Teste/build/Debug/outDebug",
+      "program": "${workspaceFolder}/a.exe",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "externalConsole": false,
+      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "externalConsole": true,
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

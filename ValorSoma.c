@@ -1,13 +1,13 @@
 
-int indice = 13, soma = 0, k = 0;
+#include <stdio.h>
 
 int main(void){
 
-
-    do {
-k = k + 1;
-soma = soma + k;
-}
+int indice = 13, soma = 0, k = 0;
+do {
+    k += k;
+    soma = soma + k;
+    }
 while (k < indice);
 
 printf(soma);
