@@ -10,7 +10,7 @@ int main(void){
     for (int i = 0; i < 10; i++)
     {
     
-        valor = printf("Digite um numero da sequencia de Fibonacci: \n");
+        valor = printf("\nDigite um numero da sequencia de Fibonacci: \n");
         scanf("%i", &valor);
         if (valor == n2)
         {
@@ -18,7 +18,7 @@ int main(void){
         }
         else
         {
-            printf("Ops! voce errou, era %i o numero certo\n", n2);
+            printf("Ops! voce errou, era %i o numero certo \n", n2);
         }
         resultado = n1 + n2;
         n1 = n2;
