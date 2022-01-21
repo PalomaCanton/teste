@@ -10,18 +10,19 @@ int main(void){
     for (int i = 0; i < 10; i++)
     {
     
-        resultado = n1 + n2;
-        n1 = n2;
-        n2 = resultado;
-        valor = printf("Digite um número da sequência de Fibonacci: \n", n1);
-        scanf("%i", n1);
-        if (valor == n1)
+        valor = printf("Digite um numero da sequencia de Fibonacci: \n");
+        scanf("%i", &valor);
+        if (valor == n2)
         {
-            printf("Parabéns você acertou! \n");
+            printf("Parabens voce acertou! \n");
         }
         else
         {
-            printf("Ops! Você errou. \n");
+            printf("Ops! voce errou, era %i o numero certo\n", n2);
         }
+        resultado = n1 + n2;
+        n1 = n2;
+        n2 = resultado;
     }
+    printf("Acabou!");
 }
